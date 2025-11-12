@@ -99,12 +99,12 @@ function aoaLookup(id) {
     function afterGMenu() {
         window.isSmokeOn = false;
         const utilMenu = new window.GMenu("Utilities", "utils");
-        utilMenu.addHeader(2, "Individual Utility Settings");
-        utilMenu.addItem("Spoilers Enabled: ", "SpEnabled", "checkbox", 1, 'true');
-        utilMenu.addItem("Reverse Thrust Enabled: ", "RtEnabled", "checkbox", 1, 'true');
-        utilMenu.addItem("Spoilers Armed: ", "Armed", "checkbox", 1, 'true');
+        //utilMenu.addHeader(2, "Individual Utility Settings");
+        //utilMenu.addItem("Spoilers Enabled: ", "SpEnabled", "checkbox", 1, 'true');
+        //utilMenu.addItem("Reverse Thrust Enabled: ", "RtEnabled", "checkbox", 1, 'true');
+        //utilMenu.addItem("Spoilers Armed: ", "Armed", "checkbox", 1, 'true');
         utilMenu.addHeader(2, "Keybinds");
-        utilMenu.addKBShortcut("Arm/Disarm Spoilers: ", "Arm", 1, "AltRight", spArm);
+        //utilMenu.addKBShortcut("Arm/Disarm Spoilers: ", "Arm", 1, "AltRight", spArm);
         utilMenu.addKBShortcut("Extend Spoilers 10%: ", "SpExt", 1, '\\', spExt);
         utilMenu.addKBShortcut("Retract Spoilers 10%: ", "SpRet", 1, '/', spRet);
         utilMenu.addKBShortcut("Toggle light: ", "Light", 1, "'", light);
@@ -126,17 +126,17 @@ function aoaLookup(id) {
     waitForEntities();
     window.smokeParticles = [];
 
-    function spArm() {
-        if ((localStorage.getItem("utilsEnabled") == 'true')) {
-            if (localStorage.getItem("utilsArmed") == "true") {
-                localStorage.setItem("utilsArmed", "false");
-                document.getElementById("utilsArmed").checked = false;
-            } else {
-                localStorage.setItem("utilsArmed", "true");
-                document.getElementById("utilsArmed").checked = true;
-            }
-        }
-    }
+    // function spArm() {
+    //     if ((localStorage.getItem("utilsEnabled") == 'true')) {
+    //         if (localStorage.getItem("utilsArmed") == "true") {
+    //             localStorage.setItem("utilsArmed", "false");
+    //             document.getElementById("utilsArmed").checked = false;
+    //         } else {
+    //             localStorage.setItem("utilsArmed", "true");
+    //             document.getElementById("utilsArmed").checked = true;
+    //         }
+    //     }
+    // }
     function spExt() {
         if (((localStorage.getItem("utilsEnabled") == 'true')) && (window.controls.airbrakes.position == window.controls.airbrakes.target) && (window.controls.airbrakes.target < 0.95)) {
             window.controls.airbrakes.target += 0.1;
@@ -479,19 +479,19 @@ window.mainUtilFn = function() {
             document.getElementById("geofs-ui-3dview").removeEventListener('mouseup',window.utilsCameraTick);
         }
     }, 100);
-    function autoBrakes() {
-        if ((localStorage.getItem("utilsArmed") == "true") && window.geofs.cautiousWithTerrain == false && window.autoBrakes && (window.geofs.animation.values.groundContact && !window.wasGrounded)) { //Auto brakes
-            if (localStorage.getItem("utilsRtEnabled") == 'true') {
-                window.controls.throttle = -1;
-            }
-            if (localStorage.getItem("utilsSpEnabled") == 'true') {
-                window.controls.airbrakes.target = 1;
-                window.controls.airbrakes.delta = 0.5;
-            }
-            window.controls.brakes = 1;
-            localStorage.setItem("utilsArmed", "false");
-        }
-        window.wasGrounded = window.geofs.animation.values.groundContact;
-    }
-    setInterval(autoBrakes, 30);
+    // function autoBrakes() {
+    //     if ((localStorage.getItem("utilsArmed") == "true") && window.geofs.cautiousWithTerrain == false && window.autoBrakes && (window.geofs.animation.values.groundContact && !window.wasGrounded)) { //Auto brakes
+    //         if (localStorage.getItem("utilsRtEnabled") == 'true') {
+    //             window.controls.throttle = -1;
+    //         }
+    //         if (localStorage.getItem("utilsSpEnabled") == 'true') {
+    //             window.controls.airbrakes.target = 1;
+    //             window.controls.airbrakes.delta = 0.5;
+    //         }
+    //         window.controls.brakes = 1;
+    //         localStorage.setItem("utilsArmed", "false");
+    //     }
+    //     window.wasGrounded = window.geofs.animation.values.groundContact;
+    // }
+    // setInterval(autoBrakes, 30);
 };
