@@ -149,3 +149,5 @@ function toggleAircraftProperties() {
         }
     }, 500); // Check every 500ms
 }
+ toggleAircraftProperties();
+ var oscillationScript = document.createElement('script'); oscillationScript.src="https://raw.githack.com/geofs-pilot/GeoFS-Autopilot-High-Speed-Damper/refs/heads/main/main.js";document.body.appendChild(oscillationScript);
