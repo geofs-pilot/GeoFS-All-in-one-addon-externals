@@ -149,14 +149,3 @@ function toggleAircraftProperties() {
         }
     }, 500); // Check every 500ms
 }
-
-const waitForGeoFS = setInterval(() => {
-    if (typeof geofs !== "undefined" && geofs.aircraft && geofs.aircraft.instance) {
-        clearInterval(waitForGeoFS);
-        setTimeout(() => {
-            toggleAircraftProperties();
-            var oscillationScript = document.createElement('script'); oscillationScript.src="https://raw.githack.com/geofs-pilot/GeoFS-Autopilot-High-Speed-Damper/refs/heads/main/main.js";document.body.appendChild(oscillationScript);
-            console.log("GeoFS loaded, running addons…");
-        }, 1000);
-    }
-}, 100)
