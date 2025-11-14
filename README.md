@@ -29,7 +29,8 @@ if (flight.recorder.playing) {<br/>
 https://github.com/tylerbmusic/GeoFS-Failures/blob/main/userscript.js <br/>
 last commit: June 2025
 https://github.com/geofs-pilot/GeoFS-Fuel <br/>
-last commit: May 2025
+last commit: May 2025 <br/>
+
 Flightradar: <br/>
 identical files, but needed a file different than user.js <br/>
 https://github.com/seabus0316/GeoFS-flightradar/tree/main <br/>
