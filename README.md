@@ -25,7 +25,6 @@ if (flight.recorder.playing) {<br/>
    	 failBtn.style.display = "block"<br/>
 }<br/>
 }, 100);<br/>
-
 https://github.com/tylerbmusic/GeoFS-Failures/blob/main/userscript.js <br/>
 last commit: June 2025
 https://github.com/geofs-pilot/GeoFS-Fuel <br/>
