@@ -10,6 +10,7 @@ last commit: 2023 <br/>
 
 Overpowered Engines: <br/>
 deleted UI notifications <br/>
+removed redundant waitForGeoFS function <br/>
 https://github.com/geofs-pilot/geofs-overpowered-engines/blob/main/userscript.js <br/>
 last commit: Nov 13 2025 <br/>
 
