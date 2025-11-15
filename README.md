@@ -26,27 +26,27 @@ if (flight.recorder.playing) {<br/>
 }<br/>
 }, 100);<br/>
 https://github.com/tylerbmusic/GeoFS-Failures/blob/main/userscript.js <br/>
-last commit: June 2025
+version of userscript.js: June 6 2025 <br/>
 https://github.com/geofs-pilot/GeoFS-Fuel <br/>
-last commit: May 2025 <br/>
+version of main.js: May 28 2025 <br/>
 
 Flightradar: <br/>
 identical files, but needed a file different than user.js <br/>
 https://github.com/seabus0316/GeoFS-flightradar/tree/main <br/>
-last commit: Nov 11 2025 <br/>
+version of user.js: Nov 11 2025 <br/>
 
 Maritime structures: <br/>
 fixed spawnHTML() to not break info display <br/>
 https://github.com/CementAndRebar/GeoFS-Extra-Maritime-Structures/blob/main/main.js <br/>
-last commit: 2023 <br/>
+version of main.js: 2023 <br/>
 
 Overpowered Engines: <br/>
 deleted UI notifications <br/>
 removed redundant waitForGeoFS function <br/>
 https://github.com/geofs-pilot/geofs-overpowered-engines/blob/main/userscript.js <br/>
-last commit: Nov 13 2025 <br/>
+version of userscript.js: Nov 13 2025 <br/>
 
 Utilities: <br/>
 deleted autobrake function <br/>
 https://github.com/tylerbmusic/geofs-utilities/blob/main/userscript.js <br/>
-last commit: Sept 2025 <br/>
+version of userscript.js: Sept 8 2025 <br/>
