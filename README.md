@@ -27,12 +27,12 @@ if (flight.recorder.playing) {<br/>
 }, 100);<br/>
 https://github.com/tylerbmusic/GeoFS-Failures/blob/main/userscript.js <br/>
 version of userscript.js: June 6 2025 <br/>
-https://github.com/geofs-pilot/GeoFS-Fuel <br/>
+https://github.com/geofs-pilot/GeoFS-Fuel/blob/main/main.js <br/>
 version of main.js: May 28 2025 <br/>
 
 Flightradar: <br/>
 identical files, but needed a file different than user.js <br/>
-https://github.com/seabus0316/GeoFS-flightradar/tree/main <br/>
+https://github.com/seabus0316/GeoFS-flightradar/blob/main/user.js <br/>
 version of user.js: Nov 11 2025 <br/>
 
 Maritime structures: <br/>
