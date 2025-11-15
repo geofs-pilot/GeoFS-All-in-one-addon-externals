@@ -31,12 +31,12 @@ https://github.com/geofs-pilot/GeoFS-Fuel/blob/main/main.js <br/>
 version of main.js: May 28 2025 <br/>
 
 Flightradar: <br/>
-identical files, but needed a file different than user.js <br/>
+identical code, but needed a file name different than user.js <br/>
 https://github.com/seabus0316/GeoFS-flightradar/blob/main/user.js <br/>
 version of user.js: Nov 11 2025 <br/>
 
 Maritime structures: <br/>
-fixed spawnHTML() to not break info display <br/>
+fixed (replaced) spawnHTML() to not break info display <br/>
 https://github.com/CementAndRebar/GeoFS-Extra-Maritime-Structures/blob/main/main.js <br/>
 version of main.js: 2023 <br/>
 
@@ -47,6 +47,6 @@ https://github.com/geofs-pilot/geofs-overpowered-engines/blob/main/userscript.js
 version of userscript.js: Nov 13 2025 <br/>
 
 Utilities: <br/>
-deleted autobrake function <br/>
+deleted autobrake function (2 variables from autobrakes are still there but are never read) <br/>
 https://github.com/tylerbmusic/geofs-utilities/blob/main/userscript.js <br/>
 version of userscript.js: Sept 8 2025 <br/>
