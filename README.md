@@ -30,11 +30,6 @@ version of userscript.js: June 6 2025 <br/>
 https://github.com/geofs-pilot/GeoFS-Fuel/blob/main/main.js <br/>
 version of main.js: May 28 2025 <br/>
 
-Flightradar: <br/>
-identical code, but needed a file name different than user.js <br/>
-https://github.com/seabus0316/GeoFS-flightradar/blob/main/user.js <br/>
-version of user.js: Nov 11 2025 <br/>
-
 Maritime structures: <br/>
 fixed (replaced) spawnHTML() to not break info display <br/>
 https://github.com/CementAndRebar/GeoFS-Extra-Maritime-Structures/blob/main/main.js <br/>
