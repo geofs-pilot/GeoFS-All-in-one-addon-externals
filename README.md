@@ -1,3 +1,5 @@
+Changes made to original scripts: (note: the version of a script being used here is indicated. New versions from later dates will be modified and updated.) <br/>
+
 Failures and fuel: <br/>
 -failures: delete original fuel leak, change it to set a global variable to true to trigger fuel leak logic in fuel addon <br/>
 -fuel leak logic in fuel addon - additive, including engine burn rate and stuff<br/>
